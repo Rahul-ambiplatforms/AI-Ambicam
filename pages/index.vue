@@ -11,7 +11,7 @@
     >
       <v-card>
         <v-card-title class="headline">
-          Realtime Face Recognition using TensorFlowJS and face-api-js
+          Realtime Face Recognition
         </v-card-title>
         <v-responsive>
           <v-list two-line subheader>

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "recognize",
+    "path": "/recognize",
+    "component": "C:\\\\Users\\\\super\\\\Downloads\\\\facer-master\\\\facer-master\\\\pages\\\\recognize.vue",
+    "chunkName": "pages/recognize",
+    "_name": "_0eb4b941"
+  },
+  {
+    "name": "train",
+    "path": "/train",
+    "component": "C:\\\\Users\\\\super\\\\Downloads\\\\facer-master\\\\facer-master\\\\pages\\\\train.vue",
+    "chunkName": "pages/train",
+    "_name": "_63abc98a"
+  },
+  {
+    "name": "users",
+    "path": "/users",
+    "component": "C:\\\\Users\\\\super\\\\Downloads\\\\facer-master\\\\facer-master\\\\pages\\\\users\\\\index.vue",
+    "chunkName": "pages/users/index",
+    "_name": "_64fdd632"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\super\\\\Downloads\\\\facer-master\\\\facer-master\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6820dd05"
+  },
+  {
+    "name": "users-name",
+    "path": "/users/:name",
+    "component": "C:\\\\Users\\\\super\\\\Downloads\\\\facer-master\\\\facer-master\\\\pages\\\\users\\\\_name.vue",
+    "chunkName": "pages/users/_name",
+    "_name": "_70bd137f"
+  }
+]

@@ -37,7 +37,7 @@
     <v-footer :fixed="fixed" app>
       <v-flex class="text-xs-right">
         <a href="http://gjovanov.com/" style="color: white">
-          <span>gjovanov - &copy; 2019</span>
+          <span>Vmukti Solution - &copy; 2022</span>
         </a>
         &nbsp;
       </v-flex>
@@ -61,7 +61,7 @@ export default {
       miniVariant: true,
       right: true,
       rightDrawer: false,
-      title: 'face&reg; - Realtime Face Recognition'
+      title: 'Ambicam - Realtime Face Recognition'
     }
   },
   computed: {

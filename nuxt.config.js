@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const fs = require('fs');
 const env = {
   NODE_ENV: process.env.NODE_ENV || 'development',
   HOST: process.env.HOST || '192.168.29.151',
@@ -7,10 +8,18 @@ const env = {
 }
 env.API_URL = process.env.API_URL || `http://192.168.29.151:${env.PORT_API}`
 
+const ssl = {
+  key: fs.readFileSync('./server.key'),
+  cert: fs.readFileSync('./server.crt')
+};
+
+
 const isDev = env.NODE_ENV === 'development'
 const config = {
   mode: 'universal',
-
+  server: {
+    https: isDev ? ssl : null, // Use SSL only in development
+  },
   /*
    ** Headers of the page
    */
